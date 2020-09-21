@@ -1,0 +1,23 @@
+{
+  "name": "layout-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "serve ./src"
+  },
+  "dependencies": {
+    "serve": "^11.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianyelaMaldonado/-Layout-practice-implementation.git"
+  },
+  "author": "Dianyela Maldonado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DianyelaMaldonado/-Layout-practice-implementation/issues"
+  },
+  "homepage": "https://github.com/DianyelaMaldonado/-Layout-practice-implementation#readme"
+}

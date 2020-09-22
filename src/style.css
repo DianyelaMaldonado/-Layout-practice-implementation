@@ -1,179 +1,18 @@
-    a,
-    abbr,
-    acronym,
-    address,
-    applet,
-    article,
-    aside,
-    audio,
-    big,
-    blockquote,
-    body,
-    caption,
-    cite,
-    code,
-    dd,
-    del,
-    dfn,
-    dialog,
-    div,
-    dl,
-    dt,
-    em,
-    fieldset,
-    figure,
-    font,
-    footer,
-    form,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    header,
-    hgroup,
-    html,
-    iframe,
-    img,
-    ins,
-    kbd,
-    label,
-    legend,
-    li,
-    mark,
-    menu,
-    nav,
-    object,
-    ol,
-    p,
-    pre,
-    q,
-    s,
-    samp,
-    section,
-    small,
-    span,
-    strike,
-    sub,
-    sup,
-    table,
-    tbody,
-    td,
-    tfoot,
-    th,
-    thead,
-    time,
-    tr,
-    tt,
-    ul,
-    var,
-    video {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        outline: 0;
-        font-weight: inherit;
-        font-style: inherit;
-        font-size: 100%
-    }
-    
-    article,
-    aside,
-    dialog,
-    figure,
-    footer,
-    header,
-    hgroup,
-    nav,
-    section {
-        display: block
-    }
-    
-    legend {
-        display: none
-    }
-    
-     :focus {
-        outline: 0
-    }
-    
-    table {
-        border-collapse: collapse;
-        border-spacing: 0
-    }
-    
-    caption,
-    td,
-    th {
-        text-align: left;
-        font-weight: 400
-    }
-    
-    a img,
-    iframe {
-        border: none
-    }
-    
-    ul {
-        list-style: none
-    }
-    
-    button,
-    input,
-    select,
-    textarea {
-        font-size: 100%;
-        font-family: inherit
-    }
-    
-    input,
-    select {
-        vertical-align: middle
-    }
-    
-    select {
-        margin: inherit
-    }
-    
-    button {
-        border: 0;
-        padding: 0;
-        background: 0 0;
-        cursor: pointer
-    }
-    
-    ol {
-        margin-left: 2em
-    }
-    
-    .clearfix:after {
-        content: ".";
-        display: block;
-        height: 0;
-        clear: both;
-        visibility: hidden
-    }
-    
-    * html .clearfix {
-        height: 1%
-    }
-    
-    .clearfix {
-        display: block
-    }
-
-/* GENERAL */
-
 div.navBar-bg {
     background: url(assets/header.jpg) no-repeat;
-    /* width: 100vh;
-    height: 100vw; */
+    background-size: cover;
+
 }
 
 i.material-icons {
-    background:#8e8588;
+    background: #8e8588;
+    color: #fff;
     border-radius: 4px;
+    width: 7%;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
  
 div ul.letter li a{
@@ -193,16 +32,55 @@ div ul.letter li a{
 
 
 .title-wrapper h1 {
-    font-size: 2.4em;
     align-self: center;
-    margin-top: 40%;
+     margin-bottom: 0;
 }
     
 .title-wrapper h3  {
-    font-size: 1.3em;
     align-self: center;
     color: #8e8588;
-    margin-bottom:30%;
+    font-size: 1.3em;
+    margin: 0 0 32px 0;
 }
 
+.pc-wrapper {
+    max-width: 60%;
+    max-height: 49px;
+    justify-content: center;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+	margin: 0 auto;
+}
+
+nav ul.right a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1em;
+    color: #8e8588;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+nav ul.right a:hover {
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .title-wrapper h1 {
+    font-size: 3em;
+    align-self: center;
+    margin: 90px 0 0 0;
+    }
+        
+    .title-wrapper h3 {
+    font-size: 1.7em;
+    align-self: center;
+    color: #8e8588;
+    margin: 12px 0 207px;
+    }
+
+}
 

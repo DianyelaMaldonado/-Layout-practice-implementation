@@ -65,6 +65,32 @@ nav ul.right a:hover {
     color: #fff;
 }
 
+/* .card .card-content {
+    
+} */
+
+.cards-title{
+    font-size: 1.7em;
+    margin-left: 14px;
+    font-weight: 500;
+}
+
+.card.card-wrapper {
+    box-shadow: none;
+}
+
+a.waves-effect.waves-light.btn-large.black.card-buttons{
+    border-radius: 10px;
+}
+
+.card .card-image img.cards-images {
+    border-radius: 10px;
+}
+
+.card .card-content p {
+    text-align: left;
+}
+
 
 @media only screen and (min-width: 1024px) and (max-width: 1600px) {
 
@@ -74,7 +100,7 @@ nav ul.right a:hover {
         padding-bottom: 232px;
         padding-top: 110px;
     }
-
+    
 } 
 
 
@@ -103,7 +129,7 @@ nav ul.right a:hover {
 
     a.waves-effect.waves-light.btn-large.black {
     width: 100%;
-}
+    }
 
 }
 

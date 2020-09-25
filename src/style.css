@@ -12,6 +12,7 @@ i.material-icons {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 26px;
 }
 
 div ul.letter li a{
@@ -28,7 +29,6 @@ div ul.letter li a{
     display: flex;  
     flex-direction: column;
 }
-
 
 .title-wrapper h1 {
     align-self: center;
@@ -65,6 +65,38 @@ nav ul.right a:hover {
     color: #fff;
 }
 
+.cards-title{
+    font-size: 1.7em;
+    margin-left: 14px;
+    font-weight: 500;
+}
+
+.card.card-wrapper {
+    box-shadow: none;
+}
+
+a.waves-effect.waves-light.btn-large.black.card-buttons{
+    border-radius: 10px;
+}
+
+.card .card-image img.cards-images {
+    border-radius: 10px;
+}
+
+.card .card-content p {
+    text-align: left;
+}
+
+.line-division{
+    width: 100%;
+    height: 1px;
+    background: #8e858854;
+    margin: 80px 0 100px 0;
+}
+
+.card .card-content {
+padding: 24px 0!important;
+}
 
 
 @media only screen and (min-width: 1024px) and (max-width: 1600px) {
@@ -76,6 +108,11 @@ nav ul.right a:hover {
         padding-top: 110px;
     }
 
+    .cards-title {
+        font-size: 2.5em;
+        margin-left: 14px;
+        font-weight: 500;
+    }
 } 
 
 
@@ -85,20 +122,30 @@ nav ul.right a:hover {
     div.navBar-bg {
     background: url(assets/header.jpg) no-repeat;
     background-size: cover;
+    padding-bottom: 94px;;
     }
 
-
     .title-wrapper h1 {
-    font-size: 3em;
+    font-size: 2.2em;
     align-self: center;
     margin: 90px 0 0 0;
     }
-        
+
     .title-wrapper h3 {
-    font-size: 1.7em;
+    font-size: 1.2em;
     align-self: center;
-    color: #8e8588;
-    margin: 12px 0 207px;
+    color: #8b8b8b;
+    }
+
+    a.waves-effect.waves-light.btn-large.black {
+    width: 100%;
+    }
+
+    .line-division{
+        width: 100%;
+        height: 1px;
+        background: #8e858854;
+        margin: 10px 0 30px 0;
     }
 
 }

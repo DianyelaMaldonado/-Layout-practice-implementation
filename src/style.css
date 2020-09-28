@@ -104,7 +104,7 @@ a.waves-effect.waves-light.btn-large.black.card-buttons{
 padding: 24px 0!important;
 }
 
-.links-description{
+.links-description {
     color: #ff0000;
 }
 
@@ -122,21 +122,58 @@ h4.subtitle-card-information {
     font-size: 0.9em;
 }
 
-.title-section-links{
+.title-section-links {
    font-weight: bold;
    margin-bottom: 29px;
    font-size: 2em;
    margin-top: 0;
 }
 
-.subtitle-section-links{
+.subtitle-section-links {
   font-size: 0.9em;  
 }
 
-.links-section-three{
+.links-section-three {
  color: #ff0000;
  line-height: 34px;
  text-decoration: underline;
+}
+
+.seccion-footer {
+background: #000;
+color: #8e8588;
+}
+
+.text-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.description-image-f {
+    margin-bottom: 5px;
+    /* margin: 8px; */
+}
+
+.container-wrapper {
+    padding-top: 60px;
+}
+
+.footer-img {
+border-radius: 12px;
+}
+
+.footer-title-information {
+    font-size: 2.9em;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
 }
 
 
@@ -206,6 +243,13 @@ h4.subtitle-card-information {
     .subtitle-section-links {
     font-size: small;
      margin: 0; 
+    }
+
+    .footer-title-information {
+    font-size: 1.8em;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
     }
 
 }

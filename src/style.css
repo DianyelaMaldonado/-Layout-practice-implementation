@@ -15,6 +15,12 @@ i.material-icons {
     padding: 20px 26px;
 }
 
+a.waves-effect.waves-light.btn-large.black.card-buttons {
+    border-radius: 10px;
+    margin-top: 16px;
+}
+.btn:hov
+
 div ul.letter li a{
     color: #fff;
 }
@@ -106,6 +112,33 @@ img.cards-images.information-card {
     margin: 35px 0;
 }
 
+h2.title-card-information {
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+h4.subtitle-card-information {
+    font-size: 0.9em;
+}
+
+.title-section-links{
+   font-weight: bold;
+   margin-bottom: 29px;
+   font-size: 2em;
+   margin-top: 0;
+}
+
+.subtitle-section-links{
+  font-size: 0.9em;  
+}
+
+.links-section-three{
+ color: #ff0000;
+ line-height: 34px;
+ text-decoration: underline;
+}
+
 
 @media only screen and (min-width: 1024px) and (max-width: 1600px) {
 
@@ -161,9 +194,19 @@ img.cards-images.information-card {
     margin: 0;
     }
 
-    h4.subtitle-card-information {
+    h4.subtitle-card-information{
     font-size: small;
-}
+    line-height: 22px;
+    }
+
+    .title-section-links{
+    font-size: 1.9em;
+    }
+
+    .subtitle-section-links {
+    font-size: small;
+     margin: 0; 
+    }
 
 }
 

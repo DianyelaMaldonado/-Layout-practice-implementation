@@ -29,10 +29,11 @@ This is how the design was developed in the different devices:
 <br> 
 <img src='readme-files/anigif-tablet.gif'>
 <br> 
-</p>
-
 <img src='readme-files/anigif-desktop.gif'>
 <br>
+</p>
+
+
 
 
 
@@ -70,7 +71,8 @@ Así quedó desarrollado el diseño en los diferentes dispositivos:
 <br> 
 <img src='readme-files/anigif-tablet.gif'>
 <br> 
-</p>
-
 <img src='readme-files/anigif-desktop.gif'>
 <br>
+</p>
+
+

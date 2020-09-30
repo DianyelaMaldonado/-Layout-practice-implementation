@@ -170,6 +170,10 @@ border-radius: 12px;
     margin: 0;
 }
 
+span.date {
+    font-size: 0.7em;
+}
+
 footer{
     text-align: center;
     padding: 20px;
@@ -191,6 +195,18 @@ footer{
         margin-left: 14px;
         font-weight: 500;
     }
+
+    .text-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 38px;
+    }
+
+    .col.s12.m12.l6.division-three {
+    padding-left: 70px;
+    }
+
 } 
 
 
@@ -252,5 +268,12 @@ footer{
     margin: 0;
     }
 
+    span.date {
+    font-size: 0.8em;
+    }
+
+    .text-footer-space{
+        margin-bottom: 38px;
+    }
 }
 

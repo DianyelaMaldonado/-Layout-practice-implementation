@@ -26,5 +26,5 @@ Así quedó desarrollado el diseño en los diferentes dispositivos:
 <br> 
 <img src='readme-files/anigif-tablet.gif'>
 <br> 
-<img src='readme-files/anigif-desktop-two.gif'>
+<img src='readme-files/anigif-desktop.gif'>
 <br> 

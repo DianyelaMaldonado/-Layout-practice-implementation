@@ -19,9 +19,8 @@ a.waves-effect.waves-light.btn-large.black.card-buttons {
     border-radius: 10px;
     margin-top: 16px;
 }
-.btn:hov
 
-div ul.letter li a{
+div ul.letter li a {
     color: #fff;
 }
 
@@ -71,7 +70,11 @@ nav ul.right a:hover {
     color: #fff;
 }
 
-.cards-title{
+div ul.sidenav li a {
+padding: 26px 32px;
+}
+
+.cards-title {
     font-size: 1.7em;
     margin-left: 14px;
     font-weight: 500;
@@ -81,7 +84,7 @@ nav ul.right a:hover {
     box-shadow: none;
 }
 
-a.waves-effect.waves-light.btn-large.black.card-buttons{
+a.waves-effect.waves-light.btn-large.black.card-buttons {
     border-radius: 10px;
 }
 
@@ -93,7 +96,7 @@ a.waves-effect.waves-light.btn-large.black.card-buttons{
     text-align: left;
 }
 
-.line-division{
+.line-division {
     width: 100%;
     height: 1px;
     background: #8e858854;
@@ -104,7 +107,7 @@ a.waves-effect.waves-light.btn-large.black.card-buttons{
 padding: 24px 0!important;
 }
 
-.links-description{
+.links-description {
     color: #ff0000;
 }
 
@@ -122,21 +125,62 @@ h4.subtitle-card-information {
     font-size: 0.9em;
 }
 
-.title-section-links{
+.title-section-links {
    font-weight: bold;
    margin-bottom: 29px;
    font-size: 2em;
    margin-top: 0;
 }
 
-.subtitle-section-links{
+.subtitle-section-links {
   font-size: 0.9em;  
 }
 
-.links-section-three{
+.links-section-three {
  color: #ff0000;
  line-height: 34px;
  text-decoration: underline;
+}
+
+.seccion-footer {
+background: #000;
+color: #8e8588;
+}
+
+.text-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.description-image-f {
+    margin-bottom: 5px;
+    /* margin: 8px; */
+}
+
+.container-wrapper {
+    padding-top: 60px;
+}
+
+.footer-img {
+border-radius: 12px;
+}
+
+.footer-title-information {
+    font-size: 2.9em;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+}
+
+span.date {
+    font-size: 0.7em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
 }
 
 
@@ -154,9 +198,19 @@ h4.subtitle-card-information {
         margin-left: 14px;
         font-weight: 500;
     }
+
+    .text-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 38px;
+    }
+
+    .col.s12.m12.l6.division-three {
+    padding-left: 70px;
+    }
+
 } 
-
-
 
 @media only screen and (max-width: 767px) {
 
@@ -182,14 +236,14 @@ h4.subtitle-card-information {
     width: 100%;
     }
 
-    .line-division{
+    .line-division {
         width: 100%;
         height: 1px;
         background: #8e858854;
         margin: 10px 0 30px 0;
     }
 
-    h2.title-card-information{
+    h2.title-card-information {
     font-size: 1.9em;
     margin: 0;
     }
@@ -208,5 +262,19 @@ h4.subtitle-card-information {
      margin: 0; 
     }
 
+    .footer-title-information {
+    font-size: 1.8em;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    }
+
+    span.date {
+    font-size: 0.8em;
+    }
+
+    .text-footer-space{
+        margin-bottom: 38px;
+    }
 }
 

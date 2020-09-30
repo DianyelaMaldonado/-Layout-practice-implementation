@@ -26,20 +26,20 @@ This is how the design was developed in the different devices:
 
 <p align="center"> <img />
 <img src='readme-files/anigif-mobile.gif'>
-</p>
-
-
-
-
-<img src='readme-files/anigif-mobile.gif'>
 <br> 
 <img src='readme-files/anigif-tablet.gif'>
 <br> 
+</p>
+
 <img src='readme-files/anigif-desktop.gif'>
 <br>
 
 
 
+___
+
+
+<br>
 **Layout-practice-implementation**
 Es un proyecto únicamente de maquetación, realizado con html, y css, totalmente responsive, hecho inicialmente en Mobile first, y seguidamente en dispositivos como tablet y desktop.
 
@@ -65,9 +65,12 @@ https://dianyelamaldonado.github.io/-Layout-practice-implementation/src/
 
 Así quedó desarrollado el diseño en los diferentes dispositivos:
 
+<p align="center"> <img />
 <img src='readme-files/anigif-mobile.gif'>
 <br> 
 <img src='readme-files/anigif-tablet.gif'>
 <br> 
+</p>
+
 <img src='readme-files/anigif-desktop.gif'>
-<br> 
+<br>

@@ -70,6 +70,10 @@ nav ul.right a:hover {
     color: #fff;
 }
 
+div ul.sidenav li a {
+padding: 26px 32px;
+}
+
 .cards-title {
     font-size: 1.7em;
     margin-left: 14px;
